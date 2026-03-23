@@ -4,10 +4,10 @@ set -e
 usage_docs() {
   echo ""
   echo "You can use this Github Action with:"
-  echo "- uses: convictional/trigger-workflow-and-wait"
+  echo "- uses: soubhi8/trigger-workflow-and-wait"
   echo "  with:"
-  echo "    owner: keithconvictional"
-  echo "    repo: myrepo"
+  echo "    owner: <target-owner>"
+  echo "    repo: <target-repo>"
   echo "    github_token: \${{ secrets.GITHUB_PERSONAL_ACCESS_TOKEN }}"
   echo "    workflow_file_name: main.yaml"
 }

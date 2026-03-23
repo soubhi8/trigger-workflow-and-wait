@@ -1,6 +1,6 @@
 name: 'Trigger Workflow and Wait'
 description: 'This action triggers a workflow in another repository and waits for the result.'
-author: 'Convictional'
+author: 'soubhi8'
 branding:
   icon: 'arrow-right'
   color: 'yellow'
